@@ -6,7 +6,15 @@ export class UsersService {
     return process.env.SECRET;
   }
 
-  postHello(): string {
+  postSignUp(emali: string, nickname: string, password: string): string {
+    return process.env.SECRET;
+  }
+
+  postLogIn(): string {
+    return process.env.SECRET;
+  }
+
+  postLogOut(): string {
     return process.env.SECRET;
   }
 }
